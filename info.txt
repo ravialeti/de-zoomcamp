@@ -1,0 +1,11 @@
+sudo python ingest_data.py     
+--user=root     
+--password=root     
+--host=localhost     
+--port=5432     
+--db=ny_taxi     
+--table_name=yellow_taxi_trips     
+--url="https://nyc-tlc-upgrad.s3.amazonaws.com/yellow_tripdata_2017-01.csv"
+
+You can use above URL to get data
+

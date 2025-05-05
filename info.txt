@@ -1,0 +1,27 @@
+python ingest_data.py \
+    --user=root \
+    --password=root \
+    --host=localhost \
+    --port=5432 \
+    --db=ny_taxi \
+    --table_name=yellow_taxi_trips \
+    --url="https://nyc-tlc-upgrad.s3.amazonaws.com/yellow_tripdata_2017-01.csv"
+
+You can use above URL to get data
+
+Done: pgsql db and pgadmin are run from docker compose and data is loaded from ingest_data.py to the db
+
+For Airflow setup follow below link:
+https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2022/week_2_data_ingestion
+
+Nofrills:
+https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2022/week_2_data_ingestion/airflow/2_setup_nofrills.md
+
+No-Frills yml:
+https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2022/week_2_data_ingestion/airflow/docker-compose_2.3.4.yaml
+
+
+
+
+
+
